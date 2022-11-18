@@ -46,6 +46,31 @@ header{
     color: #ff8f00;
 }
 
+/* creazione sezione main */
+
+.wrapper{
+    height: calc(100vh - 100px);
+    width: 100vw;
+}
+
+.header-main{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(27,114,232,255);
+}
+
+aside{
+    width: 150px;
+    height: 100%;
+    background-color: rgba(5,30,52,255);
+}
+
+main{
+    background-color: rgb(240, 236, 236);
+    height: 100%;
+    width: calc(100% - 150px);
+}
+
 /* media queries */
 @media screen and (min-width:769px){
     .contenitore-logo-small{
