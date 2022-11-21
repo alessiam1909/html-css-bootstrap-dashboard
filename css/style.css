@@ -62,13 +62,28 @@ header{
 .wrapper{
     height: calc(100vh - 100px);
     width: 100vw;
-    overflow-y: auto;
 }
 
 .header-main{
     height: 100px;
     width: 100%;
     background-color: rgba(27,114,232,255);
+}
+
+.logo-arancio {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.logo-arancio img{
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+tr:hover {
+    background-color: lightgray;
 }
 
 /* aside */
@@ -103,6 +118,7 @@ main{
     background-color: rgb(240, 236, 236);
     height: 100%;
     width: calc(100% - 60px);
+    overflow-y: auto;
 }
 
 /* media queries */
