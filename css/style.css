@@ -68,16 +68,22 @@ header{
     height: 100px;
     width: 100%;
     background-color: rgba(27,114,232,255);
+    position: fixed;
+    z-index: 1;
 }
 
-.logo-arancio {
-    width: 40px;
-    height: 40px;
-    margin-right: 20px;
+.margin-top{
+    margin-top: 100px;
+}
+
+.logo-arancio{
+    text-align: left;
 }
 
 .logo-arancio img{
-    width: 100%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
     border-radius: 50%;
     overflow: hidden;
 }
