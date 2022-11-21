@@ -18,7 +18,7 @@
         <header>
             <div class="container-fluid bg-light">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-2 d-flex align-items-center justify-content-center align-content-center">
                         <div class="contenitore-logo-small">
                             <img src="./img/mobile-logo.png" alt="logo-small">
                         </div>
@@ -26,26 +26,57 @@
                             <img src="./img/logo.svg" alt="logo-large">
                         </div>
                     </div>
-                    <div class="col-9 d-flex align-items-center">
+                    <div class="col-9 col-md-8 col-xxl-9 d-flex align-items-center p-md-0">
                         <div class="input-group">
                             <span class="input-group-text border-0 bg-light-gray" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                             <input type="text" class="form-control border-0 bg-light-gray" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                         </div>                  
                     </div>
-                    <div class="col-1 d-flex align-items-center">
+                    <div class="col-1 col-md-2 col-xxl-1 d-flex align-items-center px-0 justify-content-center">
                         <div class="icons">
                             <i class="fa-solid fa-list"></i>
                             <i class="fa-solid fa-circle-question"></i>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
-                            <i class="fa-solid fa-bell"></i>
                         </div>
+                        <div class="dropdown p-md-2">
+                            <button class="btn border-0 p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Profilo</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><a class="dropdown-item" href="#">Log out</a></li>
+                            </ul>
+                          </div>
+                            
                     </div>
                 </div>
               </div>
         </header>
         <!-- creazione main -->
         <div class="wrapper d-flex">
-            <aside></aside>
+            <aside class="d-flex flex-column justify-content-between">
+                    <div class="col-12 my-3">
+                        <div class="content-aside">
+                            <i class="fa-solid fa-house"></i>
+                            <span>Home</span>
+                        </div>
+                        <div class="content-aside">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            <span>Stats</span>
+                        </div>
+                        <div class="content-aside">
+                            <i class="fa-solid fa-signal"></i>
+                            <span>Signals</span>
+                        </div>
+                        </div>
+                    <div class="col-12 my-3">
+                        <div class="content-aside">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>Admin</span>
+                        </div>
+                    </div>
+            </aside>
             <main class=" d-flex justify-content-end">
                 <div class="header-main"></div>
             </main>
