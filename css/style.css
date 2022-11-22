@@ -183,11 +183,19 @@ main{
     main{
         width: calc(100% - 150px);
     }
+
+    #offcanvasRight{
+        width: 50% ;
+    }
 }
 
 @media screen and (max-width:768px){
     .margin-top{
         margin-top: 210px;
+    }
+
+    #offcanvasRight{
+        width: 100% ;
     }
 }
 
