@@ -78,9 +78,49 @@
                     </div>
             </aside>
             <main class="d-flex  flex-column">
+              <!-- creazione header main -->
                 <div class="header-main">
-    
+                  <div class="container-fluid text-light">
+                    <div class="row justify-content-between my-2 py-2">
+                      <div class="col-12 col-md-4 order-md-3 col-lg-3 my-1">
+                        <span class="plus">Nuovo studente</span>
+                        <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+                        <div class="offcanvas offcanvas-end w-100"    tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                          <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            ...
+                         </div>
+                      </div>
+                      </div>
+                      <div class="col-12 col-md-5 order-md-1 col-lg-6 my-1">
+                        <div class="row flex-column">
+                          <div class="col-12">
+                            <h2>Boolean</h2>
+                            <span class="badge-azzurro">Piano blaze</span>
+                          </div>
+                          <div class="col-12">
+                            <span class="badge-azzurro">3 app</span>
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span class="badge-azzurro d-lg-none">+</span>
+                            <span class="badge-azzurro d-none d-lg-inline-block">Boolean mobile app</span>
+                            <span class="badge-azzurro d-none d-lg-inline-block">Boolean web app</span>
+                            <span class="badge-azzurro d-none d-lg-inline-block">Boolean blog app</span>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-12 col-md-3 order-md-2 col-lg-3 my-1">
+                        <div>Studenti online negli ultimi 30 minuti</div>
+                        <div class="numero-studenti">125</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <!-- creazione content main -->
                 <div class="container-fluid py-3 margin-top">
                     <div class="row flex-wrap">
                         <div class="col-12 col-lg-8 mb-3">

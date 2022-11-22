@@ -65,15 +65,34 @@ header{
 }
 
 .header-main{
-    height: 100px;
-    width: 100%;
+    width: calc(100vw - 60px);
     background-color: rgba(27,114,232,255);
     position: fixed;
     z-index: 1;
 }
 
+.numero-studenti{
+    font-size: 25px;
+}
+
+.badge-azzurro{
+    background-color: rgba(22,91,186,255);
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.col-12 h2{
+    display: inline-block;
+}
+
+.plus{
+    margin-right: 10px;
+}
+
 .margin-top{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .logo-arancio{
@@ -157,7 +176,23 @@ main{
         display:inline-block;
     }
 
+    .header-main{
+        width: calc(100vw - 150px);
+    }
+
     main{
         width: calc(100% - 150px);
+    }
+}
+
+@media screen and (max-width:768px){
+    .margin-top{
+        margin-top: 210px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .margin-top{
+        margin-top: 130px;
     }
 }
